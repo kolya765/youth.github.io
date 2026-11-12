@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>Администратор — заявления — Юность</title>
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body class="app">
+<a href="#main" class="skip-link">К содержимому</a><aside class="sidebar"><a class="brand" href="index.html"><img src="assets/official-logo.svg" alt="Эмблема ЦДТТ «Юность»" width="64" height="64"><span><b>Юность</b><small>Центр технического творчества</small></span></a><nav aria-label="Разделы кабинета"><a href="admin.html">Обзор</a><a href="admin-applications.html" aria-current="page">Заявления</a><a href="admin-enrollments.html">Зачисления</a><a href="admin-children.html">Учащиеся</a><a href="admin-groups.html">Группы</a><a href="admin-schedule.html">Расписание</a><a href="admin-users.html">Пользователи и роли</a><a href="admin-teachers.html">Педагоги</a><a href="admin-programs.html">Программы</a><a href="admin-reports.html">Отчёты</a></nav><a class="" href="index.html">Вернуться на сайт</a><a class="" href="pages.html">К списку макетов</a></aside><header class="app-header"><span>Личный кабинет администратора</span><span class="account-state">Профиль не загружен</span><div class="mobile-brand"><a class="brand" href="index.html"><img src="assets/official-logo.svg" alt="Эмблема ЦДТТ «Юность»" width="64" height="64"><span><b>Юность</b><small>Центр технического творчества</small></span></a></div>
+<details class="mobile-menu"><summary aria-label="Меню навигации"><span class="burger" aria-hidden="true"></span><span class="sr-only">Меню</span></summary><nav aria-label="Мобильная навигация"><a href="admin.html">Обзор</a><a href="admin-applications.html" aria-current="page">Заявления</a><a href="admin-enrollments.html">Зачисления</a><a href="admin-children.html">Учащиеся</a><a href="admin-groups.html">Группы</a><a href="admin-schedule.html">Расписание</a><a href="admin-users.html">Пользователи и роли</a><a href="admin-teachers.html">Педагоги</a><a href="admin-programs.html">Программы</a><a href="admin-reports.html">Отчёты</a><a href="index.html">Вернуться на сайт</a></nav></details></header><main id="main" class="app-main"><section class="app-title"><div>
+<h1>Заявления</h1>
+<p>Личный кабинет администратора</p>
+</div>
+<img src="assets/admin.svg" alt="" width="200" height="86"></section><form class="filters">
+<div class="field">
+<label for="field-1">Статус</label><select id="field-1" name="field-1"><option value="">Все</option>
+<option>Новое</option>
+<option>Рассматривается</option>
+<option>Принято</option>
+<option>Отклонено</option></select>
+</div>
+<div class="field">
+<label for="field-2">Программа</label><select id="field-2" name="field-2"><option value="">Все</option></select>
+</div>
+<div class="field">
+<label for="field-3">Поиск</label><input id="field-3" name="field-3" type="search">
+</div>
+<p class="filter-help">Фильтрация станет доступна после подключения данных.</p>
+</form>
+<div class="dashboard-grid">
+<section class="panel span-eight"><h2>Список заявлений</h2>
+<div class="table-wrap"><table>
+<caption class="sr-only">Список записей — пока пусто</caption>
+<thead><tr>
+<th scope="col">Ребёнок / дата</th>
+<th scope="col">Программа</th>
+<th scope="col">Статус</th>
+</tr></thead>
+<tbody><tr><td colspan="3"><div class="empty">
+<span class="empty-icon" aria-hidden="true">▤</span><h3>Пока нет данных</h3>
+<p>Записи появятся после подключения данных.</p>
+</div></td></tr></tbody>
+</table></div></section><section class="panel span-four"><h2>Рассмотрение заявления</h2>
+<form class="static-form">
+<div class="form-grid">
+<div class="field">
+<label for="field-4">Итоговый статус <span aria-label="обязательное поле">*</span></label><select id="field-4" name="field-4" required><option value="">Выберите значение</option>
+<option>Принято</option>
+<option>Отклонено</option></select>
+</div>
+<div class="field">
+<label for="field-5">Комментарий / причина отказа</label><input id="field-5" name="field-5" type="text">
+</div>
+</div>
+<button class="button outline" type="submit" disabled>Начать рассмотрение</button><p class="form-help">Сохранение и отправка станут доступны после подключения серверной части.</p>
+<button class="button primary" type="submit" disabled>Сохранить решение</button>
+</form></section>
+</div>
+<aside class="notice"><span aria-hidden="true">◇</span><p>Статусы: «Новое» → «Рассматривается» → «Принято» или «Отклонено». Причина отказа обязательна. При принятии создаётся или связывается карточка ребёнка; официальное зачисление выполняется отдельно.</p></aside></main><footer class="app-footer">ЦДТТ «Юность» · <a class="" href="pages.html">Все страницы вёрстки</a></footer>
+</body>
+</html>
