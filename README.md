@@ -77,7 +77,9 @@ GitHub покажет адрес сайта. Для задания также п
 
 Карта страниц: https://kolya765.github.io/youth.github.io/pages.html
 
-Ветка публикации: `yunost-html-css`, корень `/`.
+Ветка публикации Pages: `codespace-didactic-enigma-5g7wgvr44gw3pxvv`, корень `/`.
+
+Копия исходников также находится в ветке `yunost-html-css`.
 
 ## Проверка
 
