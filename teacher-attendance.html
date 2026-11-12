@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>Педагог — отметка посещаемости — Юность</title>
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body class="app">
+<a href="#main" class="skip-link">К содержимому</a><aside class="sidebar"><a class="brand" href="index.html"><img src="assets/official-logo.svg" alt="Эмблема ЦДТТ «Юность»" width="64" height="64"><span><b>Юность</b><small>Центр технического творчества</small></span></a><nav aria-label="Разделы кабинета"><a href="teacher-dashboard.html">Обзор</a><a href="teacher-groups.html">Мои группы</a><a href="teacher-lessons.html">Журнал занятий</a><a href="teacher-attendance.html" aria-current="page">Посещаемость</a><a href="teacher-achievements.html">Достижения учеников</a></nav><a class="" href="index.html">Вернуться на сайт</a><a class="" href="pages.html">К списку макетов</a></aside><header class="app-header"><span>Личный кабинет педагога</span><span class="account-state">Профиль не загружен</span><div class="mobile-brand"><a class="brand" href="index.html"><img src="assets/official-logo.svg" alt="Эмблема ЦДТТ «Юность»" width="64" height="64"><span><b>Юность</b><small>Центр технического творчества</small></span></a></div>
+<details class="mobile-menu"><summary aria-label="Меню навигации"><span class="burger" aria-hidden="true"></span><span class="sr-only">Меню</span></summary><nav aria-label="Мобильная навигация"><a href="teacher-dashboard.html">Обзор</a><a href="teacher-groups.html">Мои группы</a><a href="teacher-lessons.html">Журнал занятий</a><a href="teacher-attendance.html" aria-current="page">Посещаемость</a><a href="teacher-achievements.html">Достижения учеников</a><a href="index.html">Вернуться на сайт</a></nav></details></header><main id="main" class="app-main"><section class="app-title"><div>
+<h1>Отметка посещаемости</h1>
+<p>Личный кабинет педагога</p>
+</div>
+<img src="assets/calendar.svg" alt="" width="200" height="86"></section><form class="filters">
+<div class="field">
+<label for="field-1">Группа <span aria-label="обязательное поле">*</span></label><select id="field-1" name="field-1" required><option value="">Выберите значение</option></select>
+</div>
+<div class="field">
+<label for="field-2">Проведённое занятие <span aria-label="обязательное поле">*</span></label><select id="field-2" name="field-2" required><option value="">Выберите значение</option></select>
+</div>
+<p class="filter-help">Фильтрация станет доступна после подключения данных.</p>
+</form>
+<div class="dashboard-grid">
+<section class="panel span-full"><h2>Отметки за занятие</h2>
+<div class="table-wrap"><table>
+<caption class="sr-only">Список записей — пока пусто</caption>
+<thead><tr>
+<th scope="col">Учащийся</th>
+<th scope="col">Статус посещаемости</th>
+<th scope="col">Комментарий</th>
+</tr></thead>
+<tbody><tr><td colspan="3"><div class="empty">
+<span class="empty-icon" aria-hidden="true">▤</span><h3>Пока нет данных</h3>
+<p>Записи появятся после подключения данных.</p>
+</div></td></tr></tbody>
+</table></div></section><section class="panel span-full"><h2>Статистика по занятию</h2>
+<div class="empty">
+<span class="empty-icon" aria-hidden="true">▤</span><h3>Данные пока не загружены</h3>
+<p>Записи появятся после подключения данных.</p>
+</div></section>
+</div>
+<aside class="notice"><span aria-hidden="true">◇</span><p>Доступны только занятия закреплённых групп. Ровно три статуса: «Присутствует», «Отсутствует», «Уважительная причина». Отметки вносятся после занятия; комментарий необязателен.</p></aside></main><footer class="app-footer">ЦДТТ «Юность» · <a class="" href="pages.html">Все страницы вёрстки</a></footer>
+</body>
+</html>

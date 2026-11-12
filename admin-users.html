@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>Администратор — пользователи и роли — Юность</title>
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body class="app">
+<a href="#main" class="skip-link">К содержимому</a><aside class="sidebar"><a class="brand" href="index.html"><img src="assets/official-logo.svg" alt="Эмблема ЦДТТ «Юность»" width="64" height="64"><span><b>Юность</b><small>Центр технического творчества</small></span></a><nav aria-label="Разделы кабинета"><a href="admin.html">Обзор</a><a href="admin-applications.html">Заявления</a><a href="admin-enrollments.html">Зачисления</a><a href="admin-children.html">Учащиеся</a><a href="admin-groups.html">Группы</a><a href="admin-schedule.html">Расписание</a><a href="admin-users.html" aria-current="page">Пользователи и роли</a><a href="admin-teachers.html">Педагоги</a><a href="admin-programs.html">Программы</a><a href="admin-reports.html">Отчёты</a></nav><a class="" href="index.html">Вернуться на сайт</a><a class="" href="pages.html">К списку макетов</a></aside><header class="app-header"><span>Личный кабинет администратора</span><span class="account-state">Профиль не загружен</span><div class="mobile-brand"><a class="brand" href="index.html"><img src="assets/official-logo.svg" alt="Эмблема ЦДТТ «Юность»" width="64" height="64"><span><b>Юность</b><small>Центр технического творчества</small></span></a></div>
+<details class="mobile-menu"><summary aria-label="Меню навигации"><span class="burger" aria-hidden="true"></span><span class="sr-only">Меню</span></summary><nav aria-label="Мобильная навигация"><a href="admin.html">Обзор</a><a href="admin-applications.html">Заявления</a><a href="admin-enrollments.html">Зачисления</a><a href="admin-children.html">Учащиеся</a><a href="admin-groups.html">Группы</a><a href="admin-schedule.html">Расписание</a><a href="admin-users.html" aria-current="page">Пользователи и роли</a><a href="admin-teachers.html">Педагоги</a><a href="admin-programs.html">Программы</a><a href="admin-reports.html">Отчёты</a><a href="index.html">Вернуться на сайт</a></nav></details></header><main id="main" class="app-main"><section class="app-title"><div>
+<h1>Пользователи и роли</h1>
+<p>Личный кабинет администратора</p>
+</div>
+<img src="assets/admin.svg" alt="" width="200" height="86"></section><div class="dashboard-grid">
+<section class="panel span-eight"><h2>Пользователи системы</h2>
+<div class="table-wrap"><table>
+<caption class="sr-only">Список записей — пока пусто</caption>
+<thead><tr>
+<th scope="col">ФИО / email</th>
+<th scope="col">Роль</th>
+<th scope="col">Телефон</th>
+</tr></thead>
+<tbody><tr><td colspan="3"><div class="empty">
+<span class="empty-icon" aria-hidden="true">▤</span><h3>Пока нет данных</h3>
+<p>Записи появятся после подключения данных.</p>
+</div></td></tr></tbody>
+</table></div></section><section class="panel span-four"><h2>Учётная запись сотрудника</h2>
+<form class="static-form">
+<div class="form-grid">
+<div class="field">
+<label for="field-1">Фамилия <span aria-label="обязательное поле">*</span></label><input id="field-1" name="field-1" type="text" required>
+</div>
+<div class="field">
+<label for="field-2">Имя <span aria-label="обязательное поле">*</span></label><input id="field-2" name="field-2" type="text" required>
+</div>
+<div class="field">
+<label for="field-3">Отчество</label><input id="field-3" name="field-3" type="text">
+</div>
+<div class="field">
+<label for="field-4">Телефон <span aria-label="обязательное поле">*</span></label><input id="field-4" name="field-4" type="tel" required>
+</div>
+<div class="field">
+<label for="field-5">Электронная почта <span aria-label="обязательное поле">*</span></label><input id="field-5" name="field-5" type="email" required>
+</div>
+<div class="field">
+<label for="field-6">Роль <span aria-label="обязательное поле">*</span></label><select id="field-6" name="field-6" required><option value="">Выберите значение</option>
+<option>Педагог</option>
+<option>Администратор</option></select>
+</div>
+<div class="field">
+<label for="field-7">Пароль <span aria-label="обязательное поле">*</span></label><input id="field-7" name="field-7" type="password" required minlength="8" autocomplete="new-password">
+</div>
+</div>
+<p class="form-help">Сохранение и отправка станут доступны после подключения серверной части.</p>
+<button class="button primary" type="submit" disabled>Сохранить пользователя</button>
+</form></section>
+</div>
+<aside class="notice"><span aria-hidden="true">◇</span><p>Только уполномоченный администратор изменяет роли и создаёт дополнительные учётные записи администраторов. Гость — посетитель без учётной записи. Самостоятельное повышение роли недоступно.</p></aside></main><footer class="app-footer">ЦДТТ «Юность» · <a class="" href="pages.html">Все страницы вёрстки</a></footer>
+</body>
+</html>
